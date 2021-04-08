@@ -1,12 +1,15 @@
-import "./Dictionary.css";
 import { useState } from "react";
 import axios from "axios";
+import Definitions from "./Definitions";
+import "./Dictionary.css";
 
 function Dictionary() {
   const [keyword, setKeyword] = useState("");
+  const [results, setResults] = useState(null);
 
   function handleResponse(response) {
     console.log(response.data);
+    setResults(response.data[0]);
   }
 
   function handleSearch(event) {
@@ -32,44 +35,9 @@ function Dictionary() {
           placeholder="What word will you look up?"
           onChange={handleKeyword}
         />
-
         {/* <i className="fas fa-search"></i>  */}
       </form>
-      <div className="light-green">
-        <h2 className="main-word">Awesome</h2>
-        <small>"/ˈɔsəm/" 🔊</small>
-
-        <ul className="examples">
-          <li>the awesome power of the atomic bomb</li>
-        </ul>
-
-        <h6>adverb</h6>
-        <ul className="part-of-speech">
-          <li>Extremely well; excellently.</li>
-        </ul>
-        <h6>adjective</h6>
-        <ul className="part-of-speech">
-          <li>
-            Extremely impressive or daunting; inspiring great admiration,
-            apprehension, or fear.
-          </li>
-        </ul>
-
-        <h4>Synonyms</h4>
-        <ul className="synonyms">
-          <li className="word">breathtaking</li>
-          <li className="word">amazing</li>
-          <li className="word">stunning</li>
-          <li className="word">astounding</li>
-          <li className="word">astonishing</li>
-          <li className="word">awe-inspiring</li>
-          <li className="word">stupendous</li>
-          <li className="word">staggering</li>
-          <li className="word">extraordinary</li>
-          <li className="word">unbelievable</li>
-          <li className="word">incredible</li>
-        </ul>
-      </div>
+      <Definitions data={results} />
     </div>
   );
 }

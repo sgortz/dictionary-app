@@ -1,0 +1,35 @@
+.Meanings {
+  margin: 20px;
+}
+
+.Meanings .example {
+  font-style: italic;
+  color: grey;
+  margin-left: 20px;
+}
+
+.Meanings .part-of-speech {
+  font-style: bold;
+}
+.Meanings ul {
+  list-style: none;
+  line-height: 25px;
+  max-width: 600px;
+}
+
+.examples {
+  list-style: none;
+  font-style: italic;
+  margin: 10px;
+}
+
+.synonyms .word {
+  background-color: rgba(255, 255, 255, 0.507);
+  box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 7px;
+  display: inline;
+  line-height: 15px;
+  margin-right: 10px;
+  padding: 10px;
+  text-transform: capitalize;
+}

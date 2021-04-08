@@ -14,13 +14,16 @@ function App() {
           />
           <header className="App-header">
             <h1>
-              <div className="first-title">In search for</div>
+              <div className="first-title">Searching for</div>
               <div className="second-title">Meanings</div>
             </h1>
           </header>
           <Dictionary />
         </div>
       </div>
+      {/* <footer>
+        <h6>Dictionary App coded by Sabrina Gortz</h6>
+      </footer> */}
     </div>
   );
 }
