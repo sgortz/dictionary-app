@@ -12,10 +12,15 @@
   text-transform: capitalize;
 }
 
-.Definitions .phonetics {
-  margin-bottom: 20px;
-
-  padding-bottom: 20px;
+.Definitions small {
+  font-size: 20px;
 }
 
+.Definitions .phonetics {
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
 
+.Definitions .audio {
+  color: black;
+}

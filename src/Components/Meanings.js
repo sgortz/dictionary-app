@@ -1,3 +1,4 @@
+import Synonyms from "./Synonyms";
 import "./Meanings.css";
 
 function Meanings(props) {
@@ -10,8 +11,9 @@ function Meanings(props) {
           <div key={index}>
             <ul>
               <li>{definition.definition}</li>
-              <li className="example">{definition.example}</li>
+              <li className="example">Example: {definition.example}</li>
             </ul>
+            <Synonyms data={definition.synonyms} />
           </div>
         );
       })}

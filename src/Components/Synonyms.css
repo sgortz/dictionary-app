@@ -1,0 +1,18 @@
+.Synonyms {
+  padding: 20px;
+}
+.Synonyms ul {
+  list-style: none;
+
+  padding: 0;
+}
+
+.Synonyms .word {
+  background-color: rgba(255, 255, 255, 0.507);
+  box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 7px;
+  display: inline;
+  margin-right: 10px;
+  padding: 10px;
+  /* text-transform: capitalize; */
+}
