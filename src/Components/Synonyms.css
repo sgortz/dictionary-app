@@ -3,7 +3,7 @@
 }
 .Synonyms ul {
   list-style: none;
-
+  max-width: 500px;
   padding: 0;
 }
 

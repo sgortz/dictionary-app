@@ -11,7 +11,7 @@ function Meanings(props) {
           <div key={index}>
             <ul>
               <li>{definition.definition}</li>
-              <li className="example">Example: {definition.example}</li>
+              <li className="example">{definition.example}</li>
             </ul>
             <Synonyms data={definition.synonyms} />
           </div>
