@@ -17,7 +17,7 @@ function App() {
             <h1>
               <div className="first-title">Searching for</div>
               <div className="second-title">Meanings</div>
-             <PlantIllustration />
+             {/* <PlantIllustration /> */}
             </h1>
           </header>
           <Dictionary />

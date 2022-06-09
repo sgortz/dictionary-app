@@ -11,10 +11,8 @@ function Dictionary() {
 
   function handleSearch(event) {
     event.preventDefault();
-
-    let language = "en_US/";
-    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/${language}${keyword}`;
-
+    
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
     axios.get(apiUrl)
       .then(response => setResults(response.data[0]))
       .catch(err => setNotFound(true));
