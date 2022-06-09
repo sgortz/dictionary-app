@@ -38,10 +38,10 @@
   margin-left: 80px;
 }
 
-.App .flower-illustration {
+.App svg {
   position: absolute;
-  bottom: 84px;
-  left: 60px
+  bottom: 144px;
+  left: 80px;
 }
 
 footer {

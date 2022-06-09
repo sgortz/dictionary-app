@@ -1,6 +1,6 @@
 import Dictionary from "./Components/Dictionary";
 import woman_reading from "./images/woman_reading.svg";
-import plant_illustration from "./images/plant_illustration.svg";
+import PlantIllustration from "./images/plant_illustration";
 import "./App.css";
 
 function App() {
@@ -17,12 +17,7 @@ function App() {
             <h1>
               <div className="first-title">Searching for</div>
               <div className="second-title">Meanings</div>
-              <img
-                src={plant_illustration}
-                alt="flower-illustration"
-                className="flower-illustration"
-                width="280"
-              />
+             <PlantIllustration />
             </h1>
           </header>
           <Dictionary />
