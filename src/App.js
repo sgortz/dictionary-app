@@ -21,9 +21,6 @@ function App() {
           <Dictionary />
         </div>
       </div>
-      {/* <footer>
-        <h6>Dictionary App coded by Sabrina Gortz</h6>
-      </footer> */}
     </div>
   );
 }
