@@ -10,8 +10,8 @@ function Meanings(props) {
         return (
           <div key={index}>
             <ul>
-              <li>{definition.definition}</li>
-              <li className="example">{definition.example}</li>
+              <li>{index + 1}.{" "} {definition.definition}</li>
+              <li className={definition.example ? "example" :  "inactive" }> Example: {definition.example}</li>
             </ul>
             <Synonyms data={definition.synonyms} />
           </div>
