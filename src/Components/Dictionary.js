@@ -1,16 +1,13 @@
 import { useState } from "react";
 import axios from "axios";
 import Definitions from "./Definitions";
+import ErrorMessage from "./ErrorMessage";
 import "./Dictionary.css";
 
 function Dictionary() {
   const [keyword, setKeyword] = useState("");
   const [results, setResults] = useState(null);
-
-  function handleResponse(response) {
-    console.log(response.data);
-    setResults(response.data[0]);
-  }
+  const [notFound, setNotFound] = useState(false);
 
   function handleSearch(event) {
     event.preventDefault();
@@ -18,12 +15,14 @@ function Dictionary() {
     let language = "en_US/";
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/${language}${keyword}`;
 
-    axios.get(apiUrl).then(handleResponse);
+    axios.get(apiUrl)
+      .then(response => setResults(response.data[0]))
+      .catch(err => setNotFound(true));
   }
 
-  function handleKeyword(event) {
-    event.preventDefault();
-    setKeyword(event.target.value);
+  function handleKeyword(e) {
+    e.preventDefault();
+    setKeyword(e.target.value);
   }
 
   return (
@@ -36,7 +35,7 @@ function Dictionary() {
           onChange={handleKeyword}
         />
       </form>
-      <Definitions data={results} />
+      {notFound ? <ErrorMessage /> : <Definitions data={results} />}
     </div>
   );
 }

@@ -1,16 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200&display=swap');
+
 .Dictionary .word-search {
   margin: 25px;
 }
 
 .Dictionary .word-search input {
-  font-family: "Spartan", sans-serif;
+  font-family: "League Spartan", sans-serif;
+  font-size: 20px;
   width: 350px;
   height: 40px;
   border: 1px solid;
   border-radius: 5px;
+  padding: 10px;
 }
 
 .Dictionary .word-search input:focus {
   color: black;
 }
 
+.error-message {
+  color: black;
+  font-family: "Zilla Slab Highlight", cursive;
+  font-size: 30px;
+  text-transform: capitalize;
+}
