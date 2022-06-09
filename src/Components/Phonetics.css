@@ -1,0 +1,13 @@
+.Phonetics-item {
+  letter-spacing: 1px;
+  list-style: none;
+  margin-left: 20px;
+}
+
+.Phonetics-item .phonetic-audio {
+  color: black;
+}
+
+.Phonetics-item .phonetic-text {
+  display: inline;
+}
