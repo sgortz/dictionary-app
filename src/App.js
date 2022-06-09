@@ -1,5 +1,6 @@
 import Dictionary from "./Components/Dictionary";
 import woman_reading from "./images/woman_reading.svg";
+import plant_illustration from "./images/plant_illustration.svg";
 import "./App.css";
 
 function App() {
@@ -16,10 +17,18 @@ function App() {
             <h1>
               <div className="first-title">Searching for</div>
               <div className="second-title">Meanings</div>
+              <img
+                src={plant_illustration}
+                alt="flower-illustration"
+                className="flower-illustration"
+                width="280"
+              />
             </h1>
           </header>
           <Dictionary />
         </div>
+        <footer><h6>Open-source code by <a href="https://github.com/sgortz/dictionary-app"> Sabrina Gortz</a> © 2021</h6>
+        </footer>
       </div>
     </div>
   );

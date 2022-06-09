@@ -12,7 +12,8 @@
 .App .Green {
   background-color: rgb(138, 170, 152);
   box-shadow: -2px -2px 6px rgba(0, 0, 0, 0.5);
-  margin: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
   width: 700px;
   border-radius: 15px;
   padding: 20px;
@@ -35,4 +36,17 @@
   font-style: bold;
   letter-spacing: 2px;
   margin-left: 80px;
+}
+
+.App .flower-illustration {
+  position: absolute;
+  bottom: 84px;
+  left: 60px
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: -33px;
 }
