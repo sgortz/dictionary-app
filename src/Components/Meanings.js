@@ -6,8 +6,7 @@ function Meanings(props) {
     <div className="Meanings">
       <h6 className="part-of-speech">{props.data.partOfSpeech}</h6>
 
-      {props.data.definitions.map(function (definition, index) {
-        return (
+      {props.data.definitions.map( (definition, index) => (
           <div key={index}>
             <ul>
               <li>{index + 1}.{" "} {definition.definition}</li>
@@ -15,8 +14,8 @@ function Meanings(props) {
             </ul>
             {definition.synonyms ? <Synonyms data={definition.synonyms.length} /> : null}
           </div>
-        );
-      })}
+        )
+      )}
     </div>
   );
 }
