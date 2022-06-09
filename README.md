@@ -23,7 +23,7 @@
 
 ## About this project
 
-
+<img src="src/images/app-screenshot.png" width="600" />
 <!--PROJECT SCREENSHOT HERE-->
 
 Simple dictionary app that shows definitions and synonyms of a word upon lookup. This project was created with the intent to learn more about React and conditional rendering.
