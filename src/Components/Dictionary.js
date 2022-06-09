@@ -35,7 +35,6 @@ function Dictionary() {
           placeholder="What word will you look up?"
           onChange={handleKeyword}
         />
-        {/* <i className="fas fa-search"></i>  */}
       </form>
       <Definitions data={results} />
     </div>
