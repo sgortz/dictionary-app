@@ -1,26 +1,26 @@
-.Definitions .light-green {
+.light-green {
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 15px;
   padding: 20px;
   box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.4);
 }
 
-.Definitions .main-word {
+.main-word {
   color: black;
   font-family: "Zilla Slab Highlight", cursive;
   font-size: 50px;
   text-transform: capitalize;
 }
 
-.Definitions small {
+small {
   font-size: 20px;
 }
 
-.Definitions .phonetics {
+.phonetics {
   margin-bottom: 20px;
   margin-left: 5px;
 }
 
-.Definitions .audio {
+ .audio {
   color: black;
 }
