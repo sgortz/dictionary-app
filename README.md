@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+<!-- PROJECT LOGO 
+[![React][contributors-shield]][contributors-url]
+[![Bootstrap][forks-shield]][forks-url]
+[![axios][stars-shield]][stars-url]
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555 -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+    <img src="src/images/woman_reading.svg" alt="Logo" width="160" height="160">
+  </a>
 
-## Available Scripts
+  <h2 align="center">Searching for Meanings</h2>
 
-In the project directory, you can run:
+  <p align="center">
+    <a href="https://sgortz-dictionary.netlify.app/">View Demo</a>
+    ·
+    <a href="https://github.com/sgortz/dictionary-project-react/issues">Report Bug</a>
+  </p>
+</div>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
+## About this project
+
+
+<!--PROJECT SCREENSHOT HERE-->
+
+Simple dictionary app that shows definitions and synonyms of a word upon lookup. This project was created with the intent to learn more about React and conditional rendering.
+
+
+## Getting Started
+
+To download a copy of this project to your local machine: 
+
+```sh
+$ git clone https://github.com/sgortz/dictionary-app.git
+```
+
+Install dependencies and run the server
+
+```sh
+$ npm install
+$ npm start
+```
+
+The page will reload automatically if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+<!-- CONTACT -->
+## Contact
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-### `npm run build`
+<!-- ACKNOWLEDGMENTS -->
+## Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [Create React App](https://create-react-app.dev/)
+* [Bootstrap](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Free Dictionary API](https://dictionaryapi.dev/)
+* [Undraw Illustrations](https://undraw.co/illustrations)
+* [axios](https://axios-http.com/)
+* [Img Shields](https://shields.io)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/sabrinagortz
