@@ -11,9 +11,9 @@ function Meanings(props) {
           <div key={index}>
             <ul>
               <li>{index + 1}.{" "} {definition.definition}</li>
-              <li className={definition.example ? "example" :  "inactive" }> Example: {definition.example}</li>
+              <li className={definition.example ? "example" : "inactive"}> Example: {definition.example}</li>
             </ul>
-            <Synonyms data={definition.synonyms} />
+            {definition.synonyms ? <Synonyms data={definition.synonyms.length} /> : null}
           </div>
         );
       })}
