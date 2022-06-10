@@ -8,7 +8,8 @@
 <br />
 <div align="center">
   <img src="src/images/woman_reading.svg" alt="Logo" width="160" height="160">
-  <h2>Searching for Meanings</h2>
+<!--   <p style="font-size:66px"><strong>Searching for Meanings</strong><p> -->
+
   <p>
     <a href="https://sgortz-dictionary.netlify.app/">View Demo</a>
     ·
