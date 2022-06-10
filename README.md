@@ -55,6 +55,7 @@ You will also see any lint errors in the console.
 [![React][react-shield]][react-url]
 [![Bootstrap][bootstrap-shield]][bootstrap-url]
 [![fontawesome][fontawesome-shield]][fontawesome-url]
+[![Netlify][netlify-shield]][netlify-url]
 
 * [Free Dictionary API](https://dictionaryapi.dev/)
 * [Undraw Illustrations](https://undraw.co/illustrations)
@@ -68,3 +69,5 @@ You will also see any lint errors in the console.
 [bootstrap-url]: https://www.webpagefx.com/tools/emoji-cheat-sheet
 [fontawesome-shield]: https://img.shields.io/badge/-Font%20Awesome-528DD7?logo=font-awesome&logoColor=white&style=for-the-badge
 [fontawesome-url]: https://fontawesome.com/
+[netlify-shield]: https://img.shields.io/badge/-Netlify-00C7B7?logo=netlify&logoColor=white&style=for-the-badge
+[netlify-url]: https://www.netlify.com/
