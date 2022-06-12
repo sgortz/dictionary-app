@@ -9,9 +9,7 @@
 }
 
 .Meanings .part-of-speech {
-  font-style: bold;
   font-family: "Zilla Slab Highlight", cursive;
-  font-size: 20px;
 }
 .Meanings ul {
   list-style: none;

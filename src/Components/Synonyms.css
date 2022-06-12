@@ -1,13 +1,16 @@
-.Synonyms {
-  padding: 20px;
+.Synonym-title {
+  font-style: bold;
+  font-family: "Zilla Slab Highlight", cursive;
+  font-size: 20px;
 }
-.Synonyms ul {
+
+.Synonyms-list ul {
   list-style: none;
   max-width: 500px;
   padding: 0;
 }
 
-.Synonyms .word {
+.Synonyms-list .word {
   background-color: rgba(255, 255, 255, 0.507);
   box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.4);
   border-radius: 7px;
