@@ -1,0 +1,22 @@
+.Antonym-title {
+  font-style: bold;
+  font-family: "Zilla Slab Highlight", cursive;
+  font-size: 20px;
+}
+
+.antonyms-list ul {
+  list-style: none;
+  max-width: 500px;
+  padding: 0;
+}
+
+.antonyms-list .antonym-word {
+  background-color: rgba(0, 0, 0);
+  color: white;
+  box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 7px;
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
