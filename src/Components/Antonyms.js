@@ -8,8 +8,12 @@ function Antonyms(props) {
         <ul className="antonyms-list">
           {props.antonyms.map(function (antonym, index) {
             return (
-              <li className="antonym-word" key={index}>
-                {antonym}
+              <li key={index}>
+                <button
+                  className="antonym-word"
+                  onClick={e => { e.preventDefault(); props.handleSearch(antonym) }} >
+                  {antonym}
+                </button>
               </li>
             );
           })}

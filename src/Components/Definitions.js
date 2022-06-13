@@ -16,7 +16,7 @@ function Definitions(props) {
         {props.data.meanings.map(function (meaning, index) {
           return (
             <div key={index}>
-              <Meanings data={meaning} />
+              <Meanings data={meaning} handleSearch={props.handleSearch} />
             </div>
           );
         })}
