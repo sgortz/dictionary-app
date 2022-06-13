@@ -10,11 +10,15 @@
   padding: 0;
 }
 
+.Synonyms-list li {
+  display: inline-block;
+}
+
 .Synonyms-list .word {
   background-color: rgba(255, 255, 255, 0.507);
   box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.4);
+  border: none;
   border-radius: 7px;
-  display: inline-block;
   margin-right: 10px;
   padding: 10px;
   margin-bottom: 10px;
